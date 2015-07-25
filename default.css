@@ -1,0 +1,183 @@
+/* CSS Reset */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}body {font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}table {font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+#ft{clear:both;}
+#doc,.yui-t5{text-align:left;width:57.69em;*width:56.25em;min-width:750px;}
+.yui-b{position:relative;}
+.yui-b{_position:static;}
+#yui-main .yui-b{position:static;}
+#yui-main{width:100%;}
+.yui-t5 #yui-main{float:left;margin-right:-25em;}
+.yui-t5 .yui-b{float:right;width:18.4615em;*width:18.00em;}
+.yui-t5 #yui-main .yui-b{margin-right:19.4615em;*margin-right:19.125em;}
+#yui-main .yui-b{float:none;width:auto;}
+.yui-g div.first{float:left;}
+.yui-g .yui-g .yui-u{width:49%;*width:48.1%;*margin-left:0;}
+#bd:after,.yui-g:after,.yui-gb:after,.yui-gc:after,.yui-gd:after,.yui-ge:after,.yui-gf:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#bd,.yui-g{zoom:1;}
+
+html
+{
+    height:100%;
+}
+body
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #726338;
+    background: #ffffff url('JoelFileFolderBackground.jpg') no-repeat;
+    padding-top:110px;
+    padding-left:115px;
+}
+
+h1
+{
+    font-size: 26px;
+    font-weight: bold;
+    color: #474747;
+    margin: 0;
+    padding-top: 1ex;
+}
+h2
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #C98400;
+    margin: 0;
+    padding-top: 1ex;
+    padding-bottom: 0.5ex;
+}
+h4
+{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+
+a
+{
+    color: #CC0000;
+    text-decoration: none;
+    margin-right: 0.5em;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+ul.Publications li
+{
+	list-style: disc none outside;
+    margin-left: 2em;
+    padding-bottom: 1ex;
+}
+
+.Course
+{
+    padding-bottom: 1ex;
+}
+
+.Course .Links
+{
+	padding-top:2px;
+}
+
+.Course h3
+{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+	float:left;
+	padding-right:0.5em;
+}
+
+.Course h3 a
+{
+	color: #726338;
+}
+.Course h3 a:hover
+{
+	color:#CC0000;
+}
+
+.Course .Links li
+{
+	display:inline;
+}
+.Course .Links li:after
+{
+	content: "|";
+}
+.Course .Links li.last:after
+{
+	content: "";
+}
+
+.yui-b .yui-g
+{
+    padding-right: 2em;
+}
+
+.Course .Description
+{
+	padding-top:0.5ex;
+	padding-bottom:1.5ex;
+    
+}
+
+.Info 
+{
+	margin-top:138px;
+    margin-left:-1em;
+    border-left: 1px solid #C5C5C5;
+    padding-top: 2ex;
+    padding-left: 1em;
+	padding-bottom:35ex;
+}
+
+.Info h3
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+    margin-left: -10px;
+    padding-bottom: 0.5ex;
+    padding-left: 10px;
+    padding-top: 1ex;
+}
+
+.Info ul
+{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1ex;
+}
+
+.Info li
+{
+	list-style: disc none outside;
+    margin-left: 2em;
+    padding-bottom: 0.5ex;
+}
+
+.Info .Contact
+{
+/*    font-family: Verdana, Arial, Helvetica, sans-serif;
+    white-space: pre;
+*/
+    margin-top: 1ex;
+}
+
+.CV
+{
+	display: block;
+    padding-top: 1ex;    
+    padding-bottom: 0.5ex;    
+}
+
+#ft
+{
+	padding-top:2ex;
+}
